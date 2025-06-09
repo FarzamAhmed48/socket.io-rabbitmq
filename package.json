@@ -1,0 +1,28 @@
+{
+  "name": "rabbitmq-socketio-adapter",
+  "version": "1.0.0",
+  "description": "A modular RabbitMQ adapter for Socket.IO with full production-ready features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test/**/*.test.js"
+  },
+  "keywords": [
+    "rabbitmq",
+    "socket.io",
+    "adapter",
+    "realtime",
+    "message-broker"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "socket.io-client": "^4.7.1",
+    "sinon": "^15.2.0"
+  }
+}
