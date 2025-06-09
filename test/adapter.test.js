@@ -1,7 +1,7 @@
 const io = require('socket.io')();
 const createAdapter = require('../index'); // your package entry point
 
-io.adapter(createAdapter('amqp://guest:guest@127.0.0.1:5672'));
+io.adapter(createAdapter('your connection url here!'));
 
 io.on('connection', (socket) => {
   console.log(`Client connected: ${socket.id}`);
