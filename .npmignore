@@ -1,0 +1,5 @@
+node_modules
+project-root
+docker-compose.yml
+package-lock.json
+test/

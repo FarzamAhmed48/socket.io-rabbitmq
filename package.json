@@ -1,8 +1,12 @@
 {
-  "name": "rabbitmq-socketio-adapter",
+  "name": "socket.io-rabbitmq",
   "version": "1.0.0",
   "description": "A modular RabbitMQ adapter for Socket.IO with full production-ready features.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FarzamAhmed48/socket.io-rabbitmq"
+    },
   "scripts": {
     "test": "mocha --recursive test/**/*.test.js"
   },
@@ -13,7 +17,7 @@
     "realtime",
     "message-broker"
   ],
-  "author": "Your Name",
+  "author": "Farzam Ahmed",
   "license": "MIT",
   "dependencies": {
     "amqplib": "^0.10.3",
